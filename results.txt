@@ -1,0 +1,154 @@
+investigation:
+ travel_variant:<direction>
+ experiments
+  - experiment:
+      number:1
+      input_data:
+          buffer_size: <128kb>
+      results:
+         duration: 1192281
+  - experiment:
+      number:2
+      input_data:
+          buffer_size: <256kb>
+      results:
+         duration: 2105062
+  - experiment:
+      number:3
+      input_data:
+          buffer_size: <512kb>
+      results:
+         duration: 4413313
+  - experiment:
+      number:4
+      input_data:
+          buffer_size: <1024kb>
+      results:
+         duration: 10849580
+  - experiment:
+      number:5
+      input_data:
+          buffer_size: <2048kb>
+      results:
+         duration: 18809977
+  - experiment:
+      number:6
+      input_data:
+          buffer_size: <4096kb>
+      results:
+         duration: 37776514
+  - experiment:
+      number:7
+      input_data:
+          buffer_size: <8192kb>
+      results:
+         duration: 69372422
+  - experiment:
+      number:8
+      input_data:
+          buffer_size: <9216kb>
+      results:
+         duration: 75545051
+investigation:
+ travel_variant:<converse>
+ experiments
+  - experiment:
+      number:1
+      input_data:
+          buffer_size: <128kb>
+      results:
+         converse: 1120426
+  - experiment:
+      number:2
+      input_data:
+          buffer_size: <256kb>
+      results:
+         converse: 2220765
+  - experiment:
+      number:3
+      input_data:
+          buffer_size: <512kb>
+      results:
+         converse: 4379943
+  - experiment:
+      number:4
+      input_data:
+          buffer_size: <1024kb>
+      results:
+         converse: 8781672
+  - experiment:
+      number:5
+      input_data:
+          buffer_size: <2048kb>
+      results:
+         converse: 17156633
+  - experiment:
+      number:6
+      input_data:
+          buffer_size: <4096kb>
+      results:
+         converse: 33355971
+  - experiment:
+      number:7
+      input_data:
+          buffer_size: <8192kb>
+      results:
+         converse: 65995684
+  - experiment:
+      number:8
+      input_data:
+          buffer_size: <9216kb>
+      results:
+         converse: 78729818
+investigation:
+ travel_variant:<random>
+ experiments
+  - experiment:
+      number:1
+      input_data:
+          buffer_size: <128kb>
+      results:
+         random: 1729895
+  - experiment:
+      number:2
+      input_data:
+          buffer_size: <256kb>
+      results:
+         random: 3965001
+  - experiment:
+      number:3
+      input_data:
+          buffer_size: <512kb>
+      results:
+         random: 9692025
+  - experiment:
+      number:4
+      input_data:
+          buffer_size: <1024kb>
+      results:
+         random: 22255444
+  - experiment:
+      number:5
+      input_data:
+          buffer_size: <2048kb>
+      results:
+         random: 47694626
+  - experiment:
+      number:6
+      input_data:
+          buffer_size: <4096kb>
+      results:
+         random: 104726952
+  - experiment:
+      number:7
+      input_data:
+          buffer_size: <8192kb>
+      results:
+         random: 217122161
+  - experiment:
+      number:8
+      input_data:
+          buffer_size: <9216kb>
+      results:
+         random: 245354467
+Total TIME: 1092780542
